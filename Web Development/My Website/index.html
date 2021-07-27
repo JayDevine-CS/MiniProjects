@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jay Devine - Computer Science</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<h1 class="title">Jay Devine</h1>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About Me</a></li>
+					<li><a href="">Projects</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-box">
+			<h1>Computer Science Graduate</h1>
+			<p>A recent graduate from Edge Hill University hoping to find my first job within the industry.</p>
+			<a href="" class="hero-btn">Click Here for CV</a>
+
+		</div>
+
+	</section>
+
+<!-----Projects----->
+
+	<section class="project">
+		<h1>Projects</h1>
+		<p>A few projects completed by myself are shown below</p>
+
+		<div class="row">
+			<div class="project-col">
+				<h3>ToDo List Application</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+				elit. Pallentesque aliquet turpis nulla, eleifend
+				faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+				et dapibus purus.</p>
+			</div>
+			<div class="project-col">
+				<h3>A* Path Finder</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+				elit. Pallentesque aliquet turpis nulla, eleifend
+				faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+				et dapibus purus.</p>
+			</div>
+			<div class="project-col">
+				<h3>Final Year Project</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+				elit. Pallentesque aliquet turpis nulla, eleifend
+				faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+				et dapibus purus.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="pImages-col">
+				<img src="images/todo.jpg">
+				<div class="layer">
+					<h3>To Do List</h3>
+				</div>
+			</div>
+			<div class="pImages-col">
+				<img src="images/pathFinder.jpg">
+				<div class="layer">
+					<h3>A* Path Finder</h3>
+				</div>
+			</div>
+			<div class="pImages-col">
+				<img src="images/robot1.jpg">
+				<div class="layer">
+					<h3>Final Year<br>Project</h3>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+<!----- Facilities ----->
+
+	<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/robot1.jpg">
+				<h3>World Class Library</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+				elit. Pallentesque aliquet turpis nulla, eleifend
+				faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+				et dapibus purus.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/robot1.jpg">
+				<h3>Largest Playground</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+				elit. Pallentesque aliquet turpis nulla, eleifend
+				faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+				et dapibus purus.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/robot1.jpg">
+				<h3>Tasty and Healthy Food</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+				elit. Pallentesque aliquet turpis nulla, eleifend
+				faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+				et dapibus purus.</p>
+			</div>
+
+	</section>	
+
+
+<!----- Call to Action ----->
+
+	<section class="cta">
+		<h1>If You Have Any Enquiries<br>Please Get In Touch</h1>
+		<a href="" class="hero-btn">CONTACT</a>
+	</section>
+
+<!----- Footer ----->
+
+	<section class="footer">
+		<h4>Links</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+			elit. Pallentesque aliquet turpis nulla, eleifend
+			faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex,
+			et dapibus purus.</p>
+		<div class="icons">
+			<i class="fa fa-github"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made by Jay Devine</p>
+	</section>
+
+<!----- JavaScript for Toggle Menu ----->
+	<script>
+		var navLinks = document.getElementById("navLinks")
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+
+</html>
